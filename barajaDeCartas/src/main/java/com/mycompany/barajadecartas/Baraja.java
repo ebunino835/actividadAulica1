@@ -1,12 +1,17 @@
 
 package com.mycompany.barajadecartas;
 
+import java.util.List;
+
 /**
  *
  * @author Castro Maria Victoria
  */
 public class Baraja {
-        private List [39] carta; 
+    private List <Carta> cartas; 
+    private List <Carta> monton;
+    
+    
     public static void barajar(){
        
 
