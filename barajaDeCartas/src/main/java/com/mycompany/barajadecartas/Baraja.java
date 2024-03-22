@@ -41,8 +41,8 @@ public class Baraja {
     public void cartasDisponibles(){
         //return int
     }
-    public void darCartas(){
-        //return int
+    public void darCartas(int cantidad){
+        
     }
     public void cartasMonton(){
         

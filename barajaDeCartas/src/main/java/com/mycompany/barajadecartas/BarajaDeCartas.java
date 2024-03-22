@@ -12,5 +12,7 @@ public class BarajaDeCartas {
         
         Baraja barajita= new Baraja();
         barajita.mostrarBaraja();
+        barajita.barajar();
+        barajita.mostrarBaraja();
     }
 }
