@@ -1,6 +1,7 @@
 
 package com.mycompany.barajadecartas;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -15,6 +16,38 @@ public class Baraja {
     private int contadorCartasAgregadas;
 
     public Baraja() {
+        cartas = new ArrayList<>();
+        String[] palo = {"COPA","ESPADA","ORO","BASTO"};
+        
+        for (String palos : palo){
+            for (int i = 1 ; i <= 12 ; i++){
+                if (i != 8 && i != 9){
+                    cartas.add(new Carta(i , palos));
+                }
+                
+            }
+           
+        }
+        
+        
+         
+        
+        
+        
+        
+    }
+    
+    public void barajar(){
+
+    }
+    public Carta siguienteCarta(){
+        {
+            
+        }   
+        
+        
+        
+        
     }
     
     public void barajar(){
