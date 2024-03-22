@@ -1,6 +1,8 @@
 
 package com.mycompany.barajadecartas;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -10,25 +12,30 @@ import java.util.List;
 public class Baraja {
     private List <Carta> cartas; 
     private List <Carta> monton;
+    private int contadorCartasAgregadas;
+
+    public Baraja() {
+    }
     
-    
-    public static void barajar(){
-       
+    public void barajar(){
 
     }
-    public static void siguienteCarta(){
+    public Carta siguienteCarta(){
+        
+        return null;
         
     }
-    public static void cartasDisponibles(){
+    
+    public void cartasDisponibles(){
+        //return int
+    }
+    public void darCartas(){
+        //return int
+    }
+    public void cartasMonton(){
         
     }
-    public static void darCartas(){
-        
-    }
-    public static void cartasMonton(){
-        
-    }
-    public static void mostrarBaraja(){
+    public void mostrarBaraja(){
         
     }
     
