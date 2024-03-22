@@ -29,6 +29,7 @@ public class Baraja {
     }
     
     public void barajar(){
+        Collections.shuffle(cartas);
 
     }
     public Carta siguienteCarta(){
