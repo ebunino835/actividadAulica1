@@ -1,6 +1,4 @@
-
 package com.mycompany.barajadecartas;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -27,27 +25,7 @@ public class Baraja {
                 
             }
            
-        }
-        
-        
-         
-        
-        
-        
-        
-    }
-    
-    public void barajar(){
-
-    }
-    public Carta siguienteCarta(){
-        {
-            
         }   
-        
-        
-        
-        
     }
     
     public void barajar(){
@@ -57,8 +35,8 @@ public class Baraja {
         
         return null;
         
-    }
-    
+    }   
+        
     public void cartasDisponibles(){
         //return int
     }
@@ -69,9 +47,8 @@ public class Baraja {
         
     }
     public void mostrarBaraja(){
-        
-    }
-    
+        for (Carta cartitas: cartas){
+            System.out.println(cartitas);
+        }
+    }    
 }
-
-
